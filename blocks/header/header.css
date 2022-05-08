@@ -1,0 +1,71 @@
+
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  background-color:#f2f2f2;
+  display:flex;
+  position:relative;
+  align-items: center;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.header__logo{
+  position:absolute;
+  background-image: url(/images/logo_place_header.svg);
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title{
+width: 730px;
+line-height: 96px;
+font-size: 102px;
+font-weight: 700;
+z-index: 1;
+position: relative;
+margin-left: 64px;
+}
+
+.header__subtitle{
+  width:388px;
+  position: absolute;
+  left: 64px;
+  bottom:30px;
+  z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0px;
+
+}
+
+.header__link{
+  text-decoration: none;
+  color: #2f80ed;
+
+}
+
+.header__main-illustration{
+  width: 756px;
+  height:608px;
+  background-image: url(/images/header-image.png);
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  background-size: cover;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  position:absolute;
+  top: 64px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #2f80ed;
+}
