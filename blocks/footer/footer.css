@@ -1,26 +1,27 @@
 
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
   box-sizing: border-box;
   padding: 60px 0 40px;
 }
 
 .footer__columns {
 display: flex;
-justify-content: space-between;
 width: 90%;
 margin:auto;
+justify-content: space-between;
 }
 
 .footer__column {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   position: relative;
-  margin: 16px 0;
+  min-height: 350px;
+
 }
 
 .footer__author {
@@ -28,6 +29,10 @@ margin:auto;
   font-size: 18px;
   font-weight: normal;
   color: white;
+  margin: 16px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .footer__columns_info {
@@ -35,5 +40,36 @@ margin:auto;
 }
 
 .footer__column_content_info {
+  color: white;
+
 }
 
+.footer__column-links {
+  margin: 20px 0 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.footer__column-heading {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.footer__link {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.footer__list-item {
+  display: block;
+}
+
+.footer__social-icon {
+  margin-top: 10px;
+}
