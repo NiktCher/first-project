@@ -15,5 +15,7 @@
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/oakley/oakley.css);
 
 @import url(../styles/normalize.css);
