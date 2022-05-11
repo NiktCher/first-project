@@ -6,6 +6,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
+  position: relative;
+  z-index: 1;
   }
 
 .table__cell {
