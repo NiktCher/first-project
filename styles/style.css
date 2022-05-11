@@ -16,8 +16,8 @@
   background-repeat: no-repeat;
 }
 
-.logo_footer{
-  background-image: url(/images/logo_place_footer.svg);
+.logo__place_footer{
+  background-image: url(../../images/logo_place_footer.svg);
 
 }
 
