@@ -4,39 +4,4 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
-}
-
-.cards__item {
-width: 240px;
-margin-right: 100px;
-}
-
-.cards__image {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  margin:60px 40px 0;
-  display: block;
-}
-
-.cards__title {
-  line-height: 1.5;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 43px auto 0;
-  text-align: center;
-
-}
-
-.cards__discription {
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  margin:16px auto 0;
-  text-align: center;
-}
-
-.cards__item:nth-child(3){
-  margin-right: 0;
 }

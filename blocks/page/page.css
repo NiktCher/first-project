@@ -8,16 +8,3 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.logo {
-  width:228px;
-  height:32px;
-  background-repeat: no-repeat;
-}
-
-.logo__place_footer{
-  background-image: url(../../images/logo_place_footer.svg);
-
-}
-
