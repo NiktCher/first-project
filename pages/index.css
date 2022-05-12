@@ -1,7 +1,9 @@
 
 @import url(../styles/style.css);
+
 /*Хедер.*/
 @import url(../blocks/header/header.css);
+
 /*Секции.*/
 @import url(../blocks/discription/discription.css);
 @import url(../blocks/techniques/techniques.css);
@@ -9,9 +11,10 @@
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/digits/digits.css);
-
+@import url(../blocks/khan/khan.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resorces/resources.css);
+
 /*футер.*/
 @import url(../blocks/footer/footer.css);
 
