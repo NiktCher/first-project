@@ -1,7 +1,21 @@
-@import url(../blocks/discription/discription.css);
+
 @import url(../styles/style.css);
+/*Хедер.*/
 @import url(../blocks/header/header.css);
+/*Секции.*/
+@import url(../blocks/discription/discription.css);
 @import url(../blocks/techniques/techniques.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/digits/digits.css);
+
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/resorces/resources.css);
+/*футер.*/
+@import url(../blocks/footer/footer.css);
+
+/*Блоки*/
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -9,13 +23,7 @@
 @import url(../blocks/table/__theme_dark/table__theme_dark.css);
 @import url(../blocks/section-title/__theme_dark/section-title__theme_dark.css);
 @import url(../blocks/section-subtitle/__theme_dark/section-subtitle__theme_dark.css);
-@import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/resorces/resources.css);
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/video/video.css);
-@import url(../blocks/digits/digits.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/oakley/oakley.css);
 
 @import url(../styles/normalize.css);
