@@ -1,36 +1,4 @@
-
-.resorces {
+.resources {
   margin-top: 100px;
   margin-bottom: 217px;;
-}
-
-.resorces__logo-zone {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  margin: 80px auto;
-  width: 1100px;
-}
-
-.resorces__logo {
-  width: 270px;
-  height: 38px;
-  background: center no-repeat;
-  background-size: contain;
-}
-
-.resorces__logo_arzamas {
-  background-image: url(../../images/logo/resources-arzamas.svg);
-}
-
-.resorces__logo_n1 {
-  background-image: url(../../images/logo/resources-n1.svg);
-}
-
-.resorces__logo_strelka {
-  background-image: url(../../images/logo/resources-strelka.svg);
-}
-
-.resorces__logo_polka {
-  background-image: url(../../images/logo/resources-polka.svg);
 }
